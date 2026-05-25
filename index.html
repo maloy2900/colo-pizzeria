@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLO Pizza Napoletana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="#" class="logo">COLO Pizza</a>
+        <ul class="nav-links">
+            <li><a href="#hero">Start</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#lokalizacja">Lokalizacja</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <h1>Prawdziwa Pizza Napoletana</h1>
+        <p>Pasja, oryginalne włoskie składniki i tradycyjny wypiek. Poczuj smak Neapolu w każdym kawałku.</p>
+        <a href="#menu" class="btn-primary">Zobacz Menu</a>
+    </section>
+
+    <section id="menu">
+        <h2 class="section-title">Nasze Menu</h2>
+        
+        <div class="menu-container">
+            
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Pizza Napoletana <span class="category-subtitle">Pomidory San Marzano / Mozzarella di Bufala</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Margherita ze składników certyfikowanych AVPN</span>
+                            <span class="item-price">40</span>
+                        </div>
+                        <p class="item-desc">mozzarella di bufala campana d.o.p. | gniecione pomidory san marzano d.o.p. | świeża bazylia | oliwa ex. vergine | grana padano d.o.p.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Santa Lucia D.O.P.</span>
+                            <span class="item-price">44</span>
+                        </div>
+                        <p class="item-desc">salame napoli | grana padano d.o.p. | mozzarella di bufala campana d.o.p. | gniecione pomidory san marzano d.o.p. | świeża bazylia | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Picante D.O.P. <span class="badge spicy">OSTRA</span></span>
+                            <span class="item-price">45</span>
+                        </div>
+                        <p class="item-desc">salame spianata piccante | pecorino romano d.o.p. | mozzarella di bufala campana d.o.p. | gniecione pomidory san marzano d.o.p. | świeża bazylia | oliwa ex. vergine</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Pizza Napoletana <span class="category-subtitle">Pomidory Rosso Gargano / Mozzarella fior di latte</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Margherita</span>
+                            <span class="item-price">33</span>
+                        </div>
+                        <p class="item-desc">mozzarella fior di latte | sos pomidorowy rosso gargano | świeża bazylia | oliwa ex. vergine<br><em>/możemy zrobić z wegańską mozzarellą +4zł/</em></p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Capricciosa</span>
+                            <span class="item-price">35</span>
+                        </div>
+                        <p class="item-desc">szynka cotto | świeże pieczarki | mozzarella fior di latte | sos pomidorowy rosso gargano | świeża bazylia | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Pepperoni <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">36</span>
+                        </div>
+                        <p class="item-desc">salami pepperoni | do wyboru jedna z trzech papryczek: chili, jalapeno, piri-piri | sos pomidorowy rosso gargano | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Camorra v. 4.13 <span class="badge spicy">OSTRA</span></span>
+                            <span class="item-price">38</span>
+                        </div>
+                        <p class="item-desc">salamella calabrese | pancetta affumicata | salami pepperoni | papryczki piri-piri | sos pomidorowy rosso gargano | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Tonara</span>
+                            <span class="item-price">38</span>
+                        </div>
+                        <p class="item-desc">włoski tuńczyk marynowany w oliwie z lombardii | czerwona cebula | kukurydza | czarny pieprz | sos pomidorowy rosso gargano | mozzarella fior di latte | świeża bazylia | oliwa ex. vergine | limonkowy sos mayo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">House 2.0</span>
+                            <span class="item-price">39</span>
+                        </div>
+                        <p class="item-desc">salame napoli | szynka cotto | pancetta affumicata | cebula biała | mozzarella fior di latte | sos pomidorowy rosso gargano | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Bella Puttanesca a.k.a. Córka Rybaka <span class="badge info">BEZ MOZZARELLI</span></span>
+                            <span class="item-price">39</span>
+                        </div>
+                        <p class="item-desc">fileciki anchois | kapary picolo | oliwki taggiasche | oliwki zielone | pomidorki cherry | czosnek | grana padano d.o.p. | natka pietruszki | sos pomidorowy rosso gargano | oliwa ex. vergine | sycylijskie oregano</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Quattro Formaggi</span>
+                            <span class="item-price">41</span>
+                        </div>
+                        <p class="item-desc">gorgonzola d.o.p. | grana padano d.o.p. | pecorino romano d.o.p. | mozzarella fior di latte | sos pomidorowy rosso gargano | świeża bazylia | oliwa ex. vergine<br><em>/na życzenie salami pepperoni / spianata piccante +5zł/</em></p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Napoli <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">42</span>
+                        </div>
+                        <p class="item-desc">salame napoli | czerwona cebula | świeże chilli | czosnek | grana padano d.o.p. | ser dobbiaco | sos pomidorowy rosso gargano | mozzarella fior di latte | oliwa ex. vergine | świeża bazylia po piecu</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Diavolo v.2.0 <span class="badge spicy">OSTRA</span></span>
+                            <span class="item-price">44</span>
+                        </div>
+                        <p class="item-desc">spianata piccante | kalabryjska kiełbasa nduja | świeże chilli | czerwona cebula | świeża bazylia | mozzarella fior di latte | sos pomidorowy rosso gargano | oliwa ex. vergine z peperoncino</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Spod Lady #2 - czyli Margherita inaczej <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">44</span>
+                        </div>
+                        <p class="item-desc">stracciatella | pomidorki wolno pieczone w piecu z oliwą i oregano sycylijskim | konfitowany czosnek | peperoncino | sos pomidorowy rosso gargano | oliwa ex. vergine | świeża bazylia po piecu</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">COLO Calabria <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">46</span>
+                        </div>
+                        <p class="item-desc">salamella calabrese | stracciatella | grana padano d.o.p. | colo's hot honey | świeża bazylia | suszone peperoncino | mozzarella fior di latte | sos pomidorowy rosso gargano | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Tres Deliquentes <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">46</span>
+                        </div>
+                        <p class="item-desc">3 rodzaje włoskiego salami: napoli, ventricina, salamella calabrese | alpejski ser dobbiaco | świeża bazylia | sycylijskie oregano | mozzarella fior di latte | sos pomidorowy rosso gargano | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Parma San Daniele</span>
+                            <span class="item-price">47</span>
+                        </div>
+                        <p class="item-desc">po piecu: prosciutto di san daniele | świeża rukola | grana padano d.o.p.<br>do pieca: mozzarella fior di latte | sos pomidorowy rosso gargano | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">László z Csopaku <span class="badge spicy">OSTRA</span></span>
+                            <span class="item-price">47</span>
+                        </div>
+                        <p class="item-desc">prosto z węgier: salami kaiser, kiełbasa tuzes kolbasz, ostre paprykowe chilli, sos mayo z pastą edes piros, grillowana w piecu papryka czerwona cebula</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Pizza Napoletana Bianca <span class="category-subtitle">Mozzarella fior di latte</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Spinaci v.2.11</span>
+                            <span class="item-price">39</span>
+                        </div>
+                        <p class="item-desc">świeży szpinak | gorgonzola d.o.p. | czosnek | suszone pomidory | stracciatella | zielone pesto bazyliowo/czosnkowe | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Texas v.2.0</span>
+                            <span class="item-price">40</span>
+                        </div>
+                        <p class="item-desc">grillowany kurczak | cebula czerwona | kukurydza | sos bbq santamaria | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Aglio <span class="badge mild">LEKKO OSTRA</span></span>
+                            <span class="item-price">43</span>
+                        </div>
+                        <p class="item-desc">salami ventricina | czosnek | natka pietruszki | suszone peperoncino | oliwa pietruszkowa | grana padano d.o.p. | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Primavera v.2.0 a.k.a. Cezar</span>
+                            <span class="item-price">42</span>
+                        </div>
+                        <p class="item-desc">grillowany kurczak | pancetta | sałata rzymska | pomidorki cherry | sos cezar | grana padano d.o.p. | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Tartufo</span>
+                            <span class="item-price">49</span>
+                        </div>
+                        <p class="item-desc">leśne borowiki | sos śmietanowy z pastą truflową | czosnek | natka pietruszki | taleggio d.o.p. | grana padano d.o.p. | mozzarella fior di latte | oliwa ex. vergine</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Do dzielenia <span class="category-subtitle">przed pizzą albo razem z pizzą</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Oliwki z Pieca</span><span class="item-price">13</span></div>
+                        <p class="item-desc">oliwki belle di cerignola | oliwki termite di bitetto | oliwki leccino | oliwki nocellara | oliwki peranzana | oliwa ex. vergine | oregano sycylijskie | skórka z cytryny</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Sałaty ogrodowe</span><span class="item-price">19</span></div>
+                        <p class="item-desc">liście sałat | colo vinaigrette | pistacje | zasypane dużą ilością grana padano d.o.p.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Burrata Caprese</span><span class="item-price">29</span></div>
+                        <p class="item-desc">pomidorki pieczone w niskiej temperaturze | burrata | domowe pesto bazyliowe | oliwa ex. vergine | sól maldon | 2 kawałki naszej focaccii</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Focaccia z naszego pieca z puchatą Gorgonzolą</span><span class="item-price">29</span></div>
+                        <p class="item-desc">krem z gorgonzoli | 6 kawałków naszej focaccii</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Antipasto all'Italiana</span><span class="item-price">29</span></div>
+                        <p class="item-desc">wędliny: prosciutto san daniele | salsiccia piccante fiorucci | salame napoli | mortadella di bologna | ser asiago | oliwki | kolorowe papryczki peperoncini dolci | 2 kawałki naszej focaccii</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Sałaty <span class="category-subtitle">zamiast pizzy / każda z naszym pieczywkiem</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Classic Pollo</span><span class="item-price">36</span></div>
+                        <p class="item-desc">grillowany kurczak | sałaty mieszane | pomidory | ogórek | świeże listki | grana padano d.o.p. | limonkowy sos mayo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Horiatiki czyli prawdziwa grecka</span><span class="item-price">36</span></div>
+                        <p class="item-desc">oryginalna grecka feta d.o.p. | pomidory | ogórek | czerwona cebula | papryka | oliwki zielone | oliwki taggiasche | sałaty mieszane | sos vinaigrette | sos tzatziki</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Avo Italiano</span><span class="item-price">38</span></div>
+                        <p class="item-desc">grillowany kurczak | sałaty mieszane | pomidorki cherry | suszone pomidory | czerwona cebula | awokado | kaparki | oliwki zielone | grana padano | sos vinaigrette | sos tzatziki</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">COLO Cezar</span><span class="item-price">39</span></div>
+                        <p class="item-desc">grillowana pancetta | grillowany kurczak | sałata rzymska | sos cezar | grana padano d.o.p. | grzanki z focaccii</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Prosciutto San Daniele</span><span class="item-price">42</span></div>
+                        <p class="item-desc">prosciutto san daniele | sałaty mieszane z rucolą | pomidorki cherry | ogórek zielony | grana padano d.o.p. | sos balsamiczny | oliwa ex. vergine</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category scroll-anim">
+                <h3 class="category-title">Deser <span class="category-subtitle">po pizzy</span></h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><span class="item-name">Pucharek lodów włoskich</span><span class="item-price">13</span></div>
+                        <p class="item-desc">zapytaj obsługę jaki mamy dziś smak</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-footer">
+                Pół na pół robimy tylko: Margherita/Capricciosa | Margherita/Pepperoni | Margherita/House.<br>
+                Nie dodajemy, ani nie wymieniamy żadnych składników - możemy coś usunąć.
+            </div>
+
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2 class="section-title">Galeria</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" onclick="openLightbox('zdj2.jpg')">
+                <img src="zdj2.jpg" alt="Prawdziwa neapolitańska pizza Margherita">
+            </div>
+            <div class="gallery-item" onclick="openLightbox('zdj3.jpg')">
+                <img src="zdj3.jpg" alt="Pyszna pizza COLO w Neapolitańskim stylu">
+            </div>
+            <div class="gallery-item" onclick="openLightbox('zdj4.jpg')">
+                <img src="zdj4.jpg" alt="Składniki do pizzy neapolitańskiej">
+            </div>
+            <div class="gallery-item" onclick="openLightbox('zdj5.jpg')">
+                <img src="zdj5.jpg" alt="Wypiekana w piecu pizza COLO">
+            </div>
+            <div class="gallery-item" onclick="openLightbox('zdj6.jpg')">
+                <img src="zdj6.jpg" alt="Pizza neapolitańska restauracja COLO">
+            </div>
+            <div class="gallery-item" onclick="openLightbox('zdj7.jpg')">
+                <img src="zdj7.jpg" alt="Włoska pizza na talerzu">
+            </div>
+        </div>
+    </section>
+
+    <section id="lokalizacja">
+        <h2 class="section-title">Jak do nas trafić</h2>
+        <div class="map-container scroll-anim">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.43688533436!2d19.935100676365455!3d49.83424807148116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47166e9c08414149%3A0x9c12c8ad4ce999a6!2sCOLO%20Pizza%20Napoletana!5e0!3m2!1spl!2spl!4v1779746140901!5m2!1spl!2spl" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Powiększone zdjęcie">
+    </div>
+
+    <footer id="kontakt">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>COLO Pizza Napoletana</h3>
+                <p>Prawdziwa neapolitańska pizza,<br>certyfikowane składniki, serce i pasja.</p>
+                <div class="social-icons" style="margin-top: 15px;">
+                    <a href="https://www.facebook.com/colopizzanapoletana" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Godziny Otwarcia</h3>
+                <p>Poniedziałek - Zamknięte</p>
+                <p>Wtorek - Czwartek: 13:00 - 21:00</p>
+                <p>Piątek - Sobota: 13:00 - 22:00</p>
+                <p>Niedziela: 13:00 - 21:00</p>
+            </div>
+            <div class="footer-col">
+                <h3>Kontakt</h3>
+                <a href="https://www.facebook.com/colopizzanapoletana" target="_blank"><i class="fab fa-facebook" style="margin-right: 8px;"></i> Wyślij wiadomość przez FB</a>
+                <p><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> Lokalizacja na profilu FB</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 COLO Pizza Napoletana. Wszelkie prawa zastrzeżone.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
